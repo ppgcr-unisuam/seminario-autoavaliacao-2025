@@ -1,0 +1,148 @@
+---
+title: Seminário Interno de Meio Termo
+output:
+  html_document:
+    toc: TRUE
+    css:
+      - CSS/responsive/css
+---
+
+<!--install and/or load all R packages-->
+```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  results = "asis",
+  include = TRUE,
+  out.width = "100%",
+  knitr.kable.NA = '--',
+  knitr.table.format = "html"
+)
+```
+
+```{r nojekyll, results = "hide"}
+if(!file.exists(".nojekyll")) {
+  file.create('.nojekyll')
+}
+```
+
+<br>
+
+<center>
+
+```{r logo-ies}
+if(file.exists("2023/logo-programa.png")) {
+  cat('<img src=\"2023/logo-programa.png\" align=\"center\"/>')
+}
+```
+
+</center>
+
+<br>
+
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+
+# **O Seminário**
+
+<br>
+
+## **Objetivo**
+
+O *Seminário Interno de Autoavaliação Quadrienal* do Programa de Pós-Graduação em Ciências da Reabilitação do Centro Universitário Augusto Motta ([PPGCR-UNISUAM](https://www.unisuam.edu.br/programa-pos-graduacao-ciencias-da-reabilitacao)) tem como objetivo apresentar e discutir, junto os alunos de graduação e pós-graduação, gestores e setores técnico-administrativos da instituição e pesquisadores de Programas representativos de todos os conceitos da [Área 21 Educação Física](https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-da-vida/ciencias-da-saude/educacao-fisica), os resultados da Autoavaliação Quadrienal 2021-2024 e o seu Planejamento Estratégico para o período 2025-2028.
+
+<br>
+
+## **Data**
+
+### [`r library(fontawesome); fa("calendar-days", margin_right = "0.1em")`](2023/calendar.ics) *10 de setembro de 2025*
+
+<br>
+
+## **Inscrições**
+
+### [`r library(fontawesome); fa("arrow-up-right-from-square", margin_right = "0.1em")`](https://forms.gle/XLMRL3AMuB47N6oB6) *Gratuitas*
+
+<br>
+
+## **Local**
+
+### [`r library(fontawesome); fa("location-dot", margin_right = "0.1em")`](local.html) *Auditório Silvya Bisaggio*
+
+<br>
+
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+
+<a style="float:right" href="#top"><b>Início `r library(fontawesome); fa("circle-up")`</b></a>
+
+# **Sobre o evento**
+
+O *Seminário Interno de Autoavaliação Quadrienal* é um evento realizado pelo Programa de Pós- graduação em Ciências da Reabilitação (PPGCR) da UNISUAM, como uma das ações do seu Planejamento Estratégico 2021-2024.
+
+<br>
+
+Além da UNISUAM, nesta edição haverá apresentações de coordenadores e representantes de Programas de Pós-graduação de São Paulo ([PPGFT-UFSCar](https://www.ppgft.ufscar.br/pt-br), [USP-RP](https://ppgrdf.fmrp.usp.br) e [PPGFT-UNICID](https://www.unicid.edu.br/mestrado-e-doutorado/doutorado-em-fisioterapia)), Ceará ([PPGFisio-UFC](https://ppgfisio.ufc.br/pt/)) e Santa Catarina ([PPGCR-UFSC](https://ppgcr.paginas.ufsc.br/apresentacao-2/)) com conceitos A, 3, 4, 5, 6 e 7 (máxima) na [Avaliação Quadrienal](https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/avaliacao-quadrienal) 2017-2020. Ao final, uma mesa redonda será composta por todos os palestrantes para amplo debate junto à comunidade.
+
+<br>
+
+A [Área 21 Educação Física](https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-da-vida/ciencias-da-saude/educacao-fisica), a Associação Brasileira de Pós-graduação e Pesquisa em Fisioterapia ([ABRAPG-FT](https://abrapg-ft.org.br)) e o Brazilian Journal of Physical Therapy ([BJPT](https://www.rbf-bjpt.org.br)) também serão representados no evento para ampla disseminação das ações de cada entidade junto à nossa comunidade.
+
+<br>
+
+A realização do Seminário é uma forma de dar visibilidade do PPGCR-UNISUAM por meio da divulgação das suas ações -- produção científica e formação de pessoal --, estimulando as parcerias interinstitucionais e a consolidação do PPGCR-UNISUAM no Sistema Nacional de Pós-graduação.
+
+<br>
+
+O evento conta com o apoio da UNISUAM e das agências Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro ([FAPERJ](https://www.faperj.br), No. E-26/211.104/2021), Coordenação de Aperfeiçoamento de Pessoal de Nível Superior ([CAPES](https://www.gov.br/capes/pt-br), Código Financeiro 001; No. 88881.708719/2022-01, No. 88887.708718/2022-00).
+
+<br>
+
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+
+<a style="float:right" href="#top"><b>Início `r library(fontawesome); fa("circle-up")`</b></a>
+
+#  **Comissão Organizadora**
+
+- Prof. Dr. Arthur de Sá Ferreira
+- Profa. Dra. Patrícia dos Santos Vigário
+- Prof. Dr. Thiago Lemos
+- Profa. MSc. Júlia Lemos (doutoranda)
+
+<br>
+
+## GT: Programa
+
+- Prof. Dr. Renato Santos de Almeida
+- Prof. Dr. Agnaldo José Lopes
+- Prof. Dr. Igor Ramathur Telles de Jesus
+- Profa. Dra. Laura Alice Santos Oliveira
+- Prof. MSc. Sidney Fernandes da Silva (egresso)
+
+<br>
+
+## GT: Formação
+
+- Prof. Dr. Fábio Vieira dos Anjos
+- Prof. Dr. Luis Felipe da Fonseca Reis
+- Prof. Dr. Ney Armando de Mello Meziat Filho
+- Prof. Dr. Thiago Lemos de Carvalho
+- Prof. Msc. Ana Carolina Sebastião da Silva (doutoranda)
+- Ft. João Eduardo Machado da Costa Antunes (mestrando)
+
+<br>
+
+## GT: Impacto na sociedade
+
+- Prof. Dr. Leandro Alberto Calazans Nogueira
+- Profa. Dra. Luciana Crepaldi Lunkes
+- Profa. Dra. Patrícia dos Santos Vigário
+- Prof. Dr. Estevão Rios Monteiro
+- Prof. MSc. Larissa Barranco (egressa)
+- Ft. Luiza Ferreira Moreira (doutoranda)
+- Ft. Louise Acalantis Pereira Pires Fernandes (mestranda)
+<br>
+
+<a style="float:right" href="#top"><b>Início `r library(fontawesome); fa("circle-up")`</b></a>
+
+<br>

@@ -1,0 +1,87 @@
+---
+title: Seminário Interno de Meio Termo | PPGCR-UNISUAM
+date: '`r format(Sys.Date())`'
+author:
+  - name: PPGCR-UNISUAM
+  - email: "cienciasdareabilitacao@souunisuam.com.br"
+repository_url: https://ppgcr-unisuam.github.io/meio-termo/
+creative_commons: CC BY-NC
+output_dir: docs
+include:
+  - footer.html
+search: true
+navbar:
+  left:
+    - text: ""
+      icon: "fa-home"
+      href: [index.html]
+    - text: "Local"
+      icon: "fa-location-dot"
+      href: [local.html]
+    - text: "Programação"
+      icon: "fa-list"
+      href: [programacao.html]
+    - text: "Palestrantes"
+      icon: "fa-people-group"
+      href: [palestrantes.html]
+    - text: "Palestras"
+      icon: "fa-person-chalkboard"
+      menu:
+          - text: "Área 21 CAPES"
+            href: "2023/Apresentações/2023-Area-21-CAPES.pdf"
+          - text: "BJPT"
+            href: "2023/Apresentações/2023-BJPT.pdf"
+          - text: "ABRAPG-FT"
+            href: "2023/Apresentações/2023-ABRAPG-FT.pdf"
+          - text: "UFC (Conceito A)"
+            href: "2023/Apresentações/2023-PPGFISIO-UFC-Conceito-A.pdf"
+          - text: "UFSC (Conceito 3)"
+            href: "2023/Apresentações/2023-PPGCR-UFSC-Conceito-3.pdf"
+          - text: "UNISUAM (Conceito 4, Q1)"
+            href: "2023/Apresentações/2023-PPGCR-UNISUAM-Conceito-4 (1).pdf"
+          - text: "UNISUAM (Conceito 4, Q2)"
+            href: "2023/Apresentações/2023-PPGCR-UNISUAM-Conceito-4 (2).pdf"
+          - text: "UNISUAM (Conceito 4, Q3)"
+            href: "2023/Apresentações/2023-PPGCR-UNISUAM-Conceito-4 (3).pdf"
+          - text: "UNICID (Conceito 5)"
+            href: "2023/Apresentações/2023-PPGFT-UNICID-Conceito-5.pdf"
+          - text: "USP-RP (Conceito 6)"
+            href: "2023/Apresentações/2023-PPGRDF-USP-RP-Conceito-6.pdf"
+          - text: "UFSCar (Conceito 7)"
+            href: "2023/Apresentações/2023-PPGFT-UFSCar-Conceito-7.pdf"
+    - text: "Participantes"
+      icon: "fa-people-group"
+      href: "2023/Participantes.pdf"
+    - text: "Galeria"
+      icon: "fa-photo"
+      href: [galeria.html]
+    - text: "Inscrições"
+      icon: "fa-share-from-square"
+      href: [https://forms.gle/XLMRL3AMuB47N6oB6]
+  right:
+    - text: ""
+      icon: "fa-envelope"
+      href: [mailto:cienciasdareabilitacao@souunisuam.com.br]
+    - text: ""
+
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    include:
+      after_body: [footer.html]
+    css:
+      - style.css
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    edit: null
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: yes
+      all:
+        - facebook
+        - twitter
+        - google
+---

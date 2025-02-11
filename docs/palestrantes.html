@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Palestrantes</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="CSS/responsive/css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    
+  </a>
+</li>
+<li>
+  <a href="local.html">
+    <span class="fa fa-location-dot"></span>
+     
+    Local
+  </a>
+</li>
+<li>
+  <a href="programacao.html">
+    <span class="fa fa-list"></span>
+     
+    Programação
+  </a>
+</li>
+<li>
+  <a href="palestrantes.html">
+    <span class="fa fa-people-group"></span>
+     
+    Palestrantes
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-person-chalkboard"></span>
+     
+    Palestras
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="2023/Apresentações/2023-Area-21-CAPES.pdf">Área 21 CAPES</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-BJPT.pdf">BJPT</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-ABRAPG-FT.pdf">ABRAPG-FT</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGFISIO-UFC-Conceito-A.pdf">UFC (Conceito A)</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGCR-UFSC-Conceito-3.pdf">UFSC (Conceito 3)</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGCR-UNISUAM-Conceito-4 (1).pdf">UNISUAM (Conceito 4, Q1)</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGCR-UNISUAM-Conceito-4 (2).pdf">UNISUAM (Conceito 4, Q2)</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGCR-UNISUAM-Conceito-4 (3).pdf">UNISUAM (Conceito 4, Q3)</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGFT-UNICID-Conceito-5.pdf">UNICID (Conceito 5)</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGRDF-USP-RP-Conceito-6.pdf">USP-RP (Conceito 6)</a>
+    </li>
+    <li>
+      <a href="2023/Apresentações/2023-PPGFT-UFSCar-Conceito-7.pdf">UFSCar (Conceito 7)</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="2023/Participantes.pdf">
+    <span class="fa fa-people-group"></span>
+     
+    Participantes
+  </a>
+</li>
+<li>
+  <a href="galeria.html">
+    <span class="fa fa-photo"></span>
+     
+    Galeria
+  </a>
+</li>
+<li>
+  <a href="https://forms.gle/XLMRL3AMuB47N6oB6">
+    <span class="fa fa-share-from-square"></span>
+     
+    Inscrições
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:cienciasdareabilitacao@souunisuam.com.br">
+    <span class="fa fa-envelope"></span>
+     
+    
+  </a>
+</li>
+<li class="dropdown-header"></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Palestrantes</h1>
+
+</div>
+
+
+<!--install and/or load all R packages-->
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Alessandro.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="prof.-dr.-alessandro-haupenthal" class="section level2">
+<h2><strong>Prof. Dr. Alessandro Haupenthal</strong></h2>
+<!-- -->
+<div id="universidade-federal-de-santa-catarina-campus-araranguá"
+class="section level3">
+<h3><em>Universidade Federal de Santa Catarina (Campus
+Araranguá)</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Professor do curso de Fisioterapia da Universidade Federal de Santa
+Catarina (Campus Araranguá)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Possui graduação em Fisioterapia (2005) e em Educação Física (2010) pela
+Universidade do Estado de Santa Catarina
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Especialização em Saúde Pública pela Universidade Federal de Santa
+Catarina (2010)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Master 1ère année mention Exercice, Sport, Santé et Handicap na
+Universidade Blaise Pascal, França (2007)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado em Ciências do Movimento Humano no CEFID da UDESC dentro da
+linha de pesquisa em biomecânica (2008), bolsista CAPES
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Doutorado em Ciências do Movimento Humano no CEFID da UDESC (2013),
+bolsista CAPES
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Foi subcoordenador e coordenador do Programa de Pós-Graduação em
+Ciências da Reabilitação e coordenador de pesquisa do Departamento de
+Ciências da Saúde
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro da diretoria na comissão científica da Associação Brasileira de
+Pesquisa e Pós-Graduação - ABRAPG-FT
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Foi fisioterapeuta do Figueirense Futebol Clube
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro do corpo editorial da revista Fisioterapia em Movimento e revisor
+de periódicos científicos nacionais e internacionais
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tem experiência na área de Fisioterapia e Educação Física, atuando
+principalmente nos seguintes temas: reabilitação, biomecânica,
+fisioterapia, fisioterapia esportiva e cinesiologia.
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Anielle.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="profa.-dra.-anielle-cristhine-de-medeiros-takahashi"
+class="section level2">
+<h2><strong>Profa. Dra. Anielle Cristhine de Medeiros
+Takahashi</strong></h2>
+<!-- -->
+<div id="universidade-federal-de-são-carlos" class="section level3">
+<h3><em>Universidade Federal de São Carlos</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Graduada em Fisioterapia pela Universidade Federal de São Carlos (2003)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestre (2007) e Doutora em Fisioterapia pelo Programa de Pós Graduação
+em Fisioterapia da UFSCar (2010)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Realizou estágio de doutorado sanduiche na Universitá degli Studi di
+Milano no período de 01/07/08 a 31/12/08
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atualmente é professora associada do Departamento de Fisioterapia da
+UFSCar
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Credenciada no Programa de Pós Graduação em Fisioterapia da UFSCar
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atua principalmente nos seguintes temas: envelhecimento, fragilidade,
+exercício físico, complexidade de sinais biológicos, comportamento
+sedentário
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bolsista produtividade em pesquisa CNPq (PQ 2)
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Arthur.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="prof.-dr.-arthur-de-sá-ferreira" class="section level2">
+<h2><strong>Prof. Dr. Arthur de Sá Ferreira</strong></h2>
+<!-- -->
+<div id="centro-universitário-augusto-motta" class="section level3">
+<h3><em>Centro Universitário Augusto Motta</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Graduação em Fisioterapia pela Universidade Federal do Rio de Janeiro
+(1999)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado em Engenharia Biomédica pela Universidade Federal do Rio de
+Janeiro (2002)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Doutorado em Engenharia Biomédica pela Universidade Federal do Rio de
+Janeiro (2006)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Vice-presidente da Associação Brasileira de Pós-graduação e Pesquisa em
+Fisioterapia (ABRAPG-FT) (2020-2022)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro efetivo da Associação Brasileira de Pesquisa e Pós-Graduação em
+Fisioterapia (ABRAPG-FT)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro efeito do Committee on Publication Ethics (COPE)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro efetivo da Royal Statistical Society (RSS)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professor adjunto do Centro Universitário Augusto Motta (UNISUAM)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenador do Programa de Pós-graduação em Ciências da Reabilitação
+(PPGCR)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fundador e pesquisador no Laboratório de Simulação Computacional e
+Modelagem em Reabilitação (LSCMR) dos Programas de Pós-graduação em
+Ciências da Reabilitação (PPGCR) e de Desenvolvimento Local (PPGDL) da
+UNISUAM
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tem experiência na área de Fisioterapia e Terapia Ocupacional, atuando
+principalmente nos seguintes temas: movimento funcional humano,
+processamento de sinais biomédicos, modelagem computacional,
+bioestatística, fisioterapia musculoesquelética e cardiovascular e
+medicina tradicional (chinesa)
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Cristine.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="profa.-dra.-cristine-homsi-jorge" class="section level2">
+<h2><strong>Profa. Dra. Cristine Homsi Jorge</strong></h2>
+<!-- -->
+<div
+id="universidade-de-são-paulo-faculdade-de-medicina-de-ribeirão-preto"
+class="section level3">
+<h3><em>Universidade de São Paulo, Faculdade de Medicina de Ribeirão
+Preto</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Graduação em Fisioterapia pela Universidade de Ribeirão Preto (1995)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado (2000) e doutorado (2004) em Enfermagem em Saúde Pública pela
+Escola de Enfermagem de Ribeirão Preto-Universidade de São Paulo
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professora associada 3 do Departamento de Ciências da Saúde da Faculdade
+de Medicina de Ribeirão Preto- USP
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenadora do Programa de Pós-graduação em Reabilitação e Desempenho
+Funcional (2022-2024)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Responsável pela área de Fisioterapia na Saúde da Mulher, pesquisando
+atualmente temas relacionados aos métodos de avaliação e intervenção
+fisioterapêutica relacionados ao assoalho pélvico feminino, a gravidez e
+ao puerpério
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Realizou seu pós-doutorado no Mercy Hospital for Women em Melbourne na
+Austrália em 2013 e concurso para livre-docente em 2017
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+É sócia fundadora e foi a primeira Presidente da Associação Brasileira
+de Fisioterapia em Saúde da Mulher (ABRAFISM), sendo atualmente Diretora
+Científica desta Associação
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Delegada Chefe Representante do Brasil na “International Organization of
+Physiotherapists s in Pelvic and Womens Health (IOPPWH)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Vice-Presidente do subgrupo da “World Physiotherapy” (2023-2027)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Editora-Chefe do “Brazilian Journal of Physical Therapy” (2023-2027)
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Elaine.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="profa.-dra.-elaine-caldeira-de-oliveira-guirro"
+class="section level2">
+<h2><strong>Profa. Dra. Elaine Caldeira de Oliveira Guirro</strong></h2>
+<!-- -->
+<div
+id="universidade-de-são-paulo-faculdade-de-medicina-de-ribeirão-preto-1"
+class="section level3">
+<h3><em>Universidade de São Paulo, Faculdade de Medicina de Ribeirão
+Preto</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Graduada em Fisioterapia pela Universidade Federal de São Carlos
+(UFSCAR)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado em Bioengenharia pela Universidade de São Paulo (USP)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Doutorado em Ciências Biológicas pela Universidade Estadual Paulista
+Júlio de Mesquita Filho (UNESP)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professora Associada 3 da Faculdade de Medicina de Ribeirão Preto, Curso
+de Fisioterapia da Universidade de São Paulo - Departamento de Ciências
+da Saúde
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professora do Programa de Pós-Graduação em Reabilitação e Desempenho
+Funcional (orientadora de mestrado e doutorado) da Faculdade de Medicina
+de Ribeirão Preto / USP.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Experiência na área de Fisioterapia, com ênfase em Fisioterapia
+Dermatofuncional, Fisioterapia na Saúde da Mulher e Recursos
+Eletro-foto-térmicos
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tutora da Fisioterapia / Residência Multiprofissional em Atenção ao
+Câncer FMRP/USP
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sócia Fundadora da Associação Brasileira de Fisioterapia em Saúde da
+Mulher (ABRAFISM) e Associação Brasileira de Fisioterapia
+Dermatofuncional (ABRAFIDEF).
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Fabianna.jpg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="profa.-dra.-fabianna-resende-de-jesus-moraleida"
+class="section level2">
+<h2><strong>Profa. Dra. Fabianna Resende de Jesus
+Moraleida</strong></h2>
+<!-- -->
+<div id="universidade-federal-do-ceará" class="section level3">
+<h3><em>Universidade Federal do Ceará</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Professora Adjunta da Universidade Federal do Ceará
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Graduação em Fisioterapia pela Universidade Federal de Minas Gerais
+(2007)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado em Ciências da Reabilitação pela Universidade Federal de Minas
+Gerais (2009)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Doutorado em Ciências da Reabilitação pela Universidade Federal de Minas
+Gerais (2016), com doutorado sanduíche em Physiotherapy - The University
+of Sydney (2015)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Docente permanente do Programa de Pós-graduação em Fisioterapia e
+Funcionalidade, Vice-Coordenadora do programa (2023-atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Integra a coordenação do projeto de extensão Movimento - manejo em dor
+crônica musculoesquelética voltado para a atenção primária em saúde
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro da Cochrane, IASP, ABRAPG-FT e ABRAFITO
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tem experiência na área de Fisioterapia e Terapia Ocupacional, na área
+neuromusculoesquelética, atuando principalmente nos seguintes temas: dor
+lombar e condições musculoesqueléticas, atividade física e estilo de
+vida em condições crônicas de saúde, em diferentes ciclos de vida,
+funcionalidade.
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Fabio.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="prof.-dr.-fabio-vieira-dos-anjos" class="section level2">
+<h2><strong>Prof. Dr. Fabio Vieira dos Anjos</strong></h2>
+<!-- -->
+<div id="centro-universitário-augusto-motta-1" class="section level3">
+<h3><em>Centro Universitário Augusto Motta</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Graduado em Licenciatura em Educação Física (UFRJ, 2010)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestre em Educação Física com uma bolsa de estudos CAPES (UFRJ, 2012)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Doutor em Engenharia Eletrônica (âmbito científico: Bioengenharia
+Eletrônica e Informática) no Laboratory for Engineering of the
+Neuromuscular System (LISiN), Politecnico de Torino, Turim, Itália
+(2017).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pós-doutorado com bolsa de pós-doutorado no LISiN (Politecnico de
+Torino, Itália) (2018-2019)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pós-doutorado recém-doutor nota 10 (PDR-10, FAPERJ, 2020) em Engenharia
+Biomédica na UFRJ (PEB/COPPE).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professor do Mestrado e Doutorado em Ciências da Reabilitação do Centro
+Universitário Augusto Motta (UNISUAM).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Experiência na área de Controle Motor, atuando principalmente nos
+seguintes temas: controle postural, eletromiografia de superfície e
+técnicas de biofeedback.
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Leandro.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="prof.-dr.-leandro-alberto-calazans-nogueira"
+class="section level2">
+<h2><strong>Prof. Dr. Leandro Alberto Calazans Nogueira</strong></h2>
+<!-- -->
+<div id="centro-universitário-augusto-motta-2" class="section level3">
+<h3><em>Centro Universitário Augusto Motta</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Graduou-se em Fisioterapia (UGF - 2000)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Especialização em Biomecânica (UNESA - 2004) e em Osteopatia (UCB -
+2006)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado e Doutorado em Neurologia (UNIRIO - 2006 e 2012)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professor efetivo do curso de graduação em Fisioterapia do IFRJ
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Docente permanente do Programa de Pós-graduação em Ciências da
+Reabilitação da UNISUAM
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Contemplado com o Programa Jovem Cientista do Nosso Estado (JCNE -
+FAPERJ) em 2020
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professor colaborador da Escuela de Osteopatia de Madrid, do Instituto
+de Pós-Graduação de Goiás, e de outras instituições
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ampla experiência clínica com atuação em Hospitais Universitários,
+Clínica-Escola, Hospitais Privados e consultório particular
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Prática clínica é voltada para a área de fisioterapia musculoesquelética
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Experiência na área de gestão, fisioterapia desportiva, fisioterapia
+neurofuncional e gerontologia
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Publicou diversos artigos em revistas nacionais e internacionais com
+ênfase em Terapia Manual, Análise de Movimento, Intervenções clínicas e
+Epidemiologia
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Desenvolve e colabora com projetos de pesquisa com a participação de
+alunos da graduação, especialização e mestrado em fisioterapia e
+educação física
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro do Comitê de Ética em Pesquisa do Instituto Federal do Rio de
+Janeiro (CEP-IFRJ)
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Renato.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="prof.-dr.-renato-santos-de-almeida" class="section level2">
+<h2><strong>Prof. Dr. Renato Santos de Almeida</strong></h2>
+<!-- -->
+<div id="centro-universitário-augusto-motta-3" class="section level3">
+<h3><em>Centro Universitário Augusto Motta</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Doutorado em Saúde Pública pela Fundação Oswaldo Cruz (ENSP - FIOCRUZ)
+em 2015;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pós-doutorado pelo Programa de Pós-graduação em Ciências da Reabilitação
+do Centro Universitário Augusto Motta (UNISUAM)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado em Gestão em Saúde (Université Françoise Rabelais, Tours,
+França)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Especialização em Biomecânica (EEFD- UFRJ)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Graduação em Fisioterapia (UNESA)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Docente do programa do pós-graduação em Ciências da Reabilitação do
+Centro Universitário Augusto Motta (UNISUAM)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Docente do Centro Universitário da Serra dos Órgãos (UNIFESO),
+Teresópolis, RJ
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tem experiência na área de ciências da reabilitação, desenvolve
+pesquisas clínicas na área de dor crônica e seus impactos para usuários
+da rede SUS
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Rinaldo.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="prof.-dr.-rinaldo-roberto-de-jesus-guirro"
+class="section level2">
+<h2><strong>Prof. Dr. Rinaldo Roberto de Jesus Guirro</strong></h2>
+<!-- -->
+<div
+id="universidade-de-são-paulo-faculdade-de-medicina-de-ribeirão-preto-2"
+class="section level3">
+<h3><em>Universidade de São Paulo, Faculdade de Medicina de Ribeirão
+Preto</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Graduado em Fisioterapia pela Universidade Federal de São Carlos
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mestrado em Bioengenharia pela Universidade de São Paulo
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Doutorado em Biologia e Patologia Buco-Dental pela Universidade Estadual
+de Campinas
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Conselheiro suplente do CREFITO-3/SP (2004-2010)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sócio fundador da Associação Brasileira de Pós-graduação em Fisioterapia
+- ABRAPG-FT
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Presidente da ABRAPG-FT (2010-2012)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Avaliador da SESU/ INEP e do Sistema Nacional de Avaliação da Educação
+Superior - BASis (1998-2012)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professor do curso de Graduação (1992-2008) e do PPG em Fisioterapia da
+UNIMEP (2002-2008)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenador do Curso de Mestrado em Fisioterapia da UNIMEP (2002-2008)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CoEditor da Revista Fisioterapia e Pesquisa (2010-2019)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenador Adjunto do Mestrado Profissional da Área de Educação Física
+na CAPES (2012-2013)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenador Adjunto da Área de Educação Física na CAPES (2014-2017)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenador do PPG em Reabilitação e Desempenho Funcional da da
+Faculdade de Medicina de Ribeirão Preto/USP (2014-2018)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Vice-presidente da Associação Brasileira de Fisioterapia
+Traumato-Ortopédica - regional São Paulo - ABRAFITO-SP (2019-2021)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Vice-coordenador do curso de Graduação em Fisioterapia FMRP/USP
+(2021-2023)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Professor associado do Curso de Graduação em Fisioterapia (2008-Atual) e
+do PPG em Reabilitação e Desempenho Funcional da FMRP-USP (2012-Atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenador da Área de Educação Física na CAPES (2018-Atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenador do Curso de Graduação em Fisioterapia da FMRP/USP
+(2023-Atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tem experiência na área de Fisioterapia, com ênfase em Fisioterapia
+Músculo-esquelética e Agentes Eletrofísicos. Desenvolve pesquisas na
+área de Instrumentação e Intervenção Fisioterapêutica
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<!-- -->
+<div class="row">
+<div class="col-md-2">
+<center>
+<!-- -->
+<p><img src="2025/Palestrantes/Rosimeire.jpeg" height="100px;" align="center"/></p>
+<!-- -->
+</center>
+</div>
+<div class="col-md-10">
+<!-- -->
+<!-- -->
+<div id="profa.-dra.-rosimeire-simprini-padula" class="section level2">
+<h2><strong>Profa. Dra. Rosimeire Simprini Padula</strong></h2>
+<!-- -->
+<div id="universidade-cidade-de-são-paulo" class="section level3">
+<h3><em>Universidade Cidade de São Paulo</em></h3>
+<!-- -->
+</div>
+</div>
+</div>
+</div>
+<table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;font-weight: bold;color: white !important;background-color: grey !important;">
+Mini currículo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Coordenadora do Programa de Mestrado e Doutorado em Fisioterapia da
+UNICID (agosto 2021 - atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Presidente da Associação Brasileira de Pesquisa e Pós Graduação em
+Fisioterapia (2022-atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Vice presidente da Associação de Pesquisa e Pós Graduação em
+Fisioterapia (ABRAPG-Ft gestão 2020-2022)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Docente do Curso de Fisioterapia e do Programa de Mestrado e Doutorado
+em Fisioterapia da Universidade Cidade de São Paulo (UNICID 2009- atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Especialista em Gestão Pública pela UNIFESP (2017 - 2019)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pós-Doutorado em Biomecânica Ocupacional e Ergonomia pela Northeastern
+University - Boston - EUA (2014-2015)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Doutora em Fisioterapia pela Universidade Federal de São Carlos (2003 -
+2006)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro do Comitê de Direitos Humanos - UNICID (2017-atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Representante do Coordenadores dos PPGs da UNICID no CONSEPE (2021 -
+atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro do Conselho Universitário UNICID- CONSUN (2017- 2020)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro do Comitê de Fisioterapia em Saúde Ocupacional e Ergonomia do
+WCPT (2018 - atual)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro do Comitê de Responsabilidade Social da FIESP (2016-2019)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Membro da Câmara Técnica em Fisioterapia do Trabalho - Crefito 3 (2015 -
+2016)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Compõe o grupo de avaliadores do SINAES -Ministério da Educação (INEP)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+É Ergonomista Certificada pela ABERGO. Coordenou o Grupo Técnico
+Prevenção de Lesões Músculo-esqueléticas e Reabilitação da Associação
+Brasileira de Ergonomia (2004 - 2013)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenou do Programa Institucional BEM VIVER (2006 - 2011) -
+Universidade São Francisco. Foi membro da CPA representando o Campus de
+Bragança Paulista (2007 - 2009)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenadora Acadêmica da Universidade São Francisco (USF) - Campus
+Bragança Paulista (2007 - 2009)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenou o Curso de Graduação em Fisioterapia - USF (2007-2010/1)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coordenou o Curso de Pós Graduação em ERGONOMIA do SENAC -SP (2008 -
+2011)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atua principalmente nos seguintes temas: Saúde do Trabalhador,
+Ergonomia, Biomecânica Ocupacional, Qualidade de Vida, Educação em
+Saúde, Saúde Coletiva
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Participou da Proposta de elaboração e coordenou o Programa Nacional de
+Reorientação da Formação Profissional em Saúde - Pró- Saúde/PET
+Saúde/Ministério da Saúde, Atenção Primária à Saúde, aprovada para os 8
+cursos da Saúde da Universidade São Francisco - Campus Bragança Paulista
+(2008 - 2011/1)
+</td>
+</tr>
+</tbody>
+</table>
+<br><a style="float:right" href="#top"><b>Início<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3H208v96c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V256h57.7c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5L135.1 217.4z"/></svg></b></a><br>
+<hr style="height:2px;border-width:0;color:#2C3E50;background-color:#2C3E50">
+<p><br></p>
+<p><br></p>
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:5px;border-width:0;color:black;background-color:black">
+
+<!--FUNDING AGENCIES BADGES-->
+<table class="table" style="background-color:white">
+  <tr>
+    <td width="20%" style='vertical-align: middle; text-align: center;'>
+      <a href="https://www.unisuam.edu.br"><img align="center" src="Imagens/logo-unisuam.png"></a>
+      </td>
+    <td width="20%" style='vertical-align: middle; text-align: center;'>
+      <a href="https://www.gov.br/capes/pt-br"><img align="center" src="Imagens/logo-capes.png"></a> 
+      </td>
+    <td width="20%" style='vertical-align: middle; text-align: center;'>
+      <a href="https://www.gov.br/cnpq/pt-br"><img align="center" src="Imagens/logo-cnpq.png"></a>
+    </td>
+    <td width="20%" style='vertical-align: middle; text-align: center;'>
+      <a href="http://www.faperj.br"><img align="center" src="Imagens/logo-fap.png"></a>
+    </td>
+    <td width="20%" style='vertical-align: middle; text-align: center;'>
+      <a href="http://brasil.un.org/pt-br/sdgs"><img align="center" src="Imagens/logo-ods.png"></a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!--CREATIVE COMMONTS BADGE-->
+<div style="text-align: center">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Observatório </span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Arthur de Sa Ferreira</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>.
+</div>
+
+<div style="text-align: center; font-size:14px">
+  <p>Copyright &copy; 2023 Arthur de Sá Ferreira, DSc. Todos os direitos reservados. Última atualização em <span id="datetime"></span><script>var dt = new Date().toLocaleDateString(); document.getElementById("datetime").innerHTML=dt.toLocaleString();</script> </div>
+
+<br>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

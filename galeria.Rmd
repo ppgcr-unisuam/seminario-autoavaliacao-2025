@@ -1,0 +1,59 @@
+---
+title: Galeria
+output:
+  html_document:
+    toc: FALSE
+    css:
+      - CSS/narrow-margins.css
+      - CSS/responsive/css
+---
+
+<!--install and/or load all R packages-->
+```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  results = "asis",
+  include = TRUE,
+  out.width = "100%",
+  knitr.kable.NA = '',
+  knitr.table.format = "html"
+)
+```
+
+<br>
+
+```{css}
+.item img {
+  width:50%
+}
+```
+
+```{r galeria-carousel, out.width="50%"}
+library("dplyr")
+
+# carousel
+bsplus::bs_carousel(id = "projetos-carousel",
+            use_indicators = FALSE,
+            use_controls = TRUE) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/01.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/02.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/03.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/04.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/05.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/06.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/07.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/08.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/09.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/10.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/11.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/12.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/13.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/14.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/15.jpeg")) %>%
+  bsplus::bs_append(content = bsplus::bs_carousel_image(src = "2025/Fotos/16.jpeg"))
+
+cat('\n\n')
+```
