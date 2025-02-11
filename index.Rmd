@@ -1,5 +1,5 @@
 ---
-title: Seminário Interno de Meio Termo
+title: Seminário Interno de Autoavaliação e Planejamento
 output:
   html_document:
     toc: TRUE
@@ -50,7 +50,7 @@ if(file.exists("2023/logo-programa.png")) {
 
 ## **Objetivo**
 
-O *Seminário Interno de Autoavaliação Quadrienal* do Programa de Pós-Graduação em Ciências da Reabilitação do Centro Universitário Augusto Motta ([PPGCR-UNISUAM](https://www.unisuam.edu.br/programa-pos-graduacao-ciencias-da-reabilitacao)) tem como objetivo apresentar e discutir, junto os alunos de graduação e pós-graduação, gestores e setores técnico-administrativos da instituição e pesquisadores de Programas representativos de todos os conceitos da [Área 21 Educação Física](https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-da-vida/ciencias-da-saude/educacao-fisica), os resultados da Autoavaliação Quadrienal 2021-2024 e o seu Planejamento Estratégico para o período 2025-2028.
+O *Seminário Interno de Autoavaliação e Planejamento* do Programa de Pós-Graduação em Ciências da Reabilitação do Centro Universitário Augusto Motta ([PPGCR-UNISUAM](https://www.unisuam.edu.br/programa-pos-graduacao-ciencias-da-reabilitacao)) tem como objetivo apresentar e discutir, junto os alunos de graduação e pós-graduação, gestores e setores técnico-administrativos da instituição e pesquisadores de Programas representativos de todos os conceitos da [Área 21 Educação Física](https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-da-vida/ciencias-da-saude/educacao-fisica), os resultados da Autoavaliação Quadrienal 2021-2024 e o seu Planejamento Estratégico para o período 2025-2028.
 
 <br>
 
@@ -78,7 +78,7 @@ O *Seminário Interno de Autoavaliação Quadrienal* do Programa de Pós-Gradua�
 
 # **Sobre o evento**
 
-O *Seminário Interno de Autoavaliação Quadrienal* é um evento realizado pelo Programa de Pós- graduação em Ciências da Reabilitação (PPGCR) da UNISUAM, como uma das ações do seu Planejamento Estratégico 2021-2024.
+O *Seminário Interno de Autoavaliação e Planejamento* é um evento realizado pelo Programa de Pós- graduação em Ciências da Reabilitação (PPGCR) da UNISUAM, como uma das ações do seu Planejamento Estratégico 2021-2024.
 
 <br>
 
